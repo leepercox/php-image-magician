@@ -2,6 +2,7 @@
 	"name": "leepercox/php-image-magician",
 	"description": "Simple Composer port of Jarrod Oberto's Image Magician",
 	"require": {
+		"php": ">=7.0",
 		"ext-gd": "*"
 	},
 	"autoload": {
