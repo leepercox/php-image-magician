@@ -1,6 +1,12 @@
 {
-    "name": "leepercox/php-image-magician",
-    "description": "PHP Image Magician",
-    "keywords": ["Image magician"],
-    "license": "MIT"
+	"name": "leepercox/php-image-magician",
+	"description": "Simple Composer port of Jarrod Oberto's Image Magician",
+	"require": {
+		"ext-gd": "*"
+	},
+	"autoload": {
+		"classmap" : [
+			"php_image_magician.php"
+		]
+	}
 }
